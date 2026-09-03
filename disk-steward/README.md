@@ -1,13 +1,17 @@
-# Disk Steward
+# Kanae (disk agent)
+
+Repo folder: `disk-steward/`. Grok Bot display name: **Kanae**.
 
 Local-agent pathway for file organization and defensive hygiene on a machine you own.
 
 This is instruction, not a product app. The agent follows `docs/PATHWAY.md` and only touches paths listed as **in-scope** in `docs/ROOTS_INDEX.md`.
 
+Do not change the public name or description unless the user writes `RENAME`.
+
 ## Start here
 
 1. Set **OS** and **USER_ROOTS** in `docs/ROOTS_INDEX.md` (replace `YOU`).
-2. Paste `prompts/system-local-agent.md` into the agent’s standing instructions.
+2. Paste `prompts/system-local-agent.md` into Kanae’s standing instructions.
 3. Run the pathway in order: Access check → Inventory → Dry-run → your OK → Apply → Verify.
 4. Use chips in `chips/` when you want quiet mode or apply-only.
 
@@ -26,4 +30,4 @@ This is instruction, not a product app. The agent follows `docs/PATHWAY.md` and 
 
 ## Rules in one line
 
-Local agent. Roots allowlist only. Dry-run before move/trash. Quarantine or Trash, not silent unlink. Path+kind for secrets, never contents. Do not invent tool results.
+Kanae. Local agent. Roots allowlist only. Dry-run before move/trash. Quarantine or Trash, not silent unlink. Path+kind for secrets, never contents. Do not invent tool results.

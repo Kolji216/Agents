@@ -21,7 +21,7 @@ Named Grok Bot / local agent that owns the prompt-library catalog: README, INDEX
 * Never delete a P-id. Deprecate in CHANGELOG + frontmatter `status: deprecated`.
 * New prompt files need YAML + Role, Core Directives, Hard Constraints, Output Schema.
 * Do not invent files. If a path is missing, say missing.
-* Disk Steward is a sibling tree, not this repo. Do not merge.
+* Disk agent is **Kanae**, sibling tree `disk-steward/`. Do not merge. Do not do Kanae’s file moves.
 * Do not push to GitHub unless the user writes PUSH TO GITHUB.
 * Do not write application/product code.
 

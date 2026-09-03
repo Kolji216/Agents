@@ -19,8 +19,8 @@ Dual-surface prompt library: **Chatbot** (plan, critique, eval) and **CLI** (imp
 4. Multi-step: Phase 0 Discover → Phase 1 Design freeze → Phase 2 Implement.
 5. Catalog bot: `P-20260903-028` (`prompts/00-meta/library-steward-bot.md`).
 
-## Not in this repo
-Disk Steward / Morpheus (`PATHWAY.md`, `USER_ROOTS`) is a separate tree. Do not look for it under `prompt-library/`.
+## Sibling tree
+**Kanae** (disk agent) lives in [`../disk-steward/`](../disk-steward/README.md). Pathway: [`../disk-steward/docs/PATHWAY.md`](../disk-steward/docs/PATHWAY.md). Do not merge.
 
 ## Catalog Snapshot
 28 prompts indexed. See INDEX.md.
