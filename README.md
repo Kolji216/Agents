@@ -1,6 +1,6 @@
 # Agents
 
-GitHub repo slug: `Kolji216/Agents` (hyphen, no spaces). This file is the project README.
+GitHub repo slug: `Kolji216/Agents` 
 
 Two sibling trees. Do not merge them.
 
