@@ -1,4 +1,6 @@
-# Agents-such
+# Agents
+
+GitHub repo slug: `Kolji216/Agents-such` (hyphen, no spaces). This file is the project README.
 
 Two sibling trees. Do not merge them.
 
@@ -10,5 +12,3 @@ Two sibling trees. Do not merge them.
 **Shinobu / index:** [prompt-library/INDEX.md](prompt-library/INDEX.md) (`P-20260903-001` … `028`)
 
 **Kanae pathway:** [disk-steward/docs/PATHWAY.md](disk-steward/docs/PATHWAY.md)
-
-Folders stay `prompt-library/` and `disk-steward/`. Display names are Hashira names.
