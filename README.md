@@ -1,13 +1,12 @@
 # Agents-such
 
-Prompt catalog for dual-surface agents (chatbot planning vs CLI coding).
+Two sibling trees. Do not merge them.
 
-**Library (start here):** [prompt-library/README.md](prompt-library/README.md)
-
-| File | Use |
+| Tree | Start |
 | :--- | :--- |
-| [prompt-library/INDEX.md](prompt-library/INDEX.md) | IDs `P-20260903-001` … `028` |
-| [prompt-library/AGENTS.md](prompt-library/AGENTS.md) | How Cursor/CLI picks a P-id |
-| [prompt-library/prompts/00-meta/library-steward-bot.md](prompt-library/prompts/00-meta/library-steward-bot.md) | Bot that edits this catalog |
+| Prompt catalog | [prompt-library/README.md](prompt-library/README.md) |
+| Disk Steward (Morpheus / local agent) | [disk-steward/README.md](disk-steward/README.md) |
 
-Disk Steward / Morpheus file-organization runbook is **not** in this repo.
+**Library index:** [prompt-library/INDEX.md](prompt-library/INDEX.md) (`P-20260903-001` … `028`)
+
+**Steward pathway:** [disk-steward/docs/PATHWAY.md](disk-steward/docs/PATHWAY.md)
