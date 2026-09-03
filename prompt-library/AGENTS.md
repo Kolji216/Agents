@@ -1,11 +1,22 @@
 # AGENTS.md — How Agents Should Use This Library
 
+## How to pick a P-id (Cursor)
+
+1. Open `INDEX.md` in this folder.
+2. Match job → surface: chatbot plan, cli implement, both phases/eval, meta catalog.
+3. Load **one** base file by id `P-20260903-xxx`.
+4. Append **at most one** overlay from `prompts/05-agents/overlays/` for the runtime.
+5. Phased work: `021` Discover → `022` Design freeze → `023` Implement.
+6. Cite the id in sentence one.
+7. Disk / Downloads hygiene is **not** this library.
+
 ## Routing
 * **Plan / critique / research** → `prompts/03-chatbot-planning/` (+ optional chatbot overlay).
 * **Implement / debug / refactor** → `prompts/04-cli-coding/` (+ CLI overlay).
 * **Multi-step work** → `prompts/06-phases/` in order.
 * **Shape of attack** → pick a `prompts/07-variants/` profile.
 * **Harden prompts** → `prompts/08-eval/red-team-auditor.md`.
+* **Edit this catalog** → `P-20260903-028`.
 
 ## Composition
 1. Load base prompt by INDEX ID.

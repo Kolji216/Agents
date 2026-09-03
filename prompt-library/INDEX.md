@@ -1,12 +1,13 @@
 # Prompt Library Index
 
-    Stable IDs assigned 2026-09-03. Paths and surfaces are authoritative; update frontmatter when moving files.
+Stable IDs assigned 2026-09-03. Paths and surfaces are authoritative; update frontmatter when moving files.
 
-    | ID | Title | Path | Surface |
+| ID | Title | Path | Surface |
 | :--- | :--- | :--- | :--- |
 | `P-20260903-001` | Archivist Spec | `prompts/00-meta/archivist-spec.md` | meta |
 | `P-20260903-002` | Epistemic Prompt Architect | `prompts/00-meta/epistemic-prompt-architect.md` | meta |
 | `P-20260903-003` | First-Principles Prompt Generator | `prompts/00-meta/first-principles-generator.md` | meta |
+| `P-20260903-028` | Library Steward Bot | `prompts/00-meta/library-steward-bot.md` | meta |
 | `P-20260903-004` | Original Review Project Draft | `prompts/01-originals/low-scoring-archivist/original-review-project-draft.md` | chatbot |
 | `P-20260903-005` | Original Review Project Draft Dup-1 | `prompts/01-originals/low-scoring-archivist/original-review-project-draft-dup-1.md` | chatbot |
 | `P-20260903-006` | Design-Only Refactored Prompt | `prompts/02-improved/design-only-refactored-prompt.md` | chatbot |
@@ -32,7 +33,6 @@
 | `P-20260903-026` | Variant C — Brownfield | `prompts/07-variants/variant-c-brownfield.md` | cli |
 | `P-20260903-027` | Red-Team Auditor | `prompts/08-eval/red-team-auditor.md` | both |
 
-
-    ## Totals
-    * **27** prompts
-    * Surfaces: meta, chatbot, cli, both
+## Totals
+* **28** prompts
+* Surfaces: meta, chatbot, cli, both

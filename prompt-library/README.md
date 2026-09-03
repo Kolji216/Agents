@@ -1,8 +1,9 @@
 # Prompt Library & Multi-Model Routing System
 
+Repo: [Kolji216/Agents-such](https://github.com/Kolji216/Agents-such)
+
 ## Purpose
-A production-grade prompt engineering, architecture, and routing library designed for dual-surface AI execution:
-**Chatbot Surface** (planning, architecture, critique, eval) and **CLI Surface** (implementation, debugging, refactoring, verification).
+Dual-surface prompt library: **Chatbot** (plan, critique, eval) and **CLI** (implement, debug, verify).
 
 ## Surface Matrix
 | Surface | Primary Role | Target Models / Tools | Primary Assets |
@@ -11,33 +12,15 @@ A production-grade prompt engineering, architecture, and routing library designe
 | **CLI** | Implementation, Testing, Refactoring, Verification | Claude Code, OpenAI Codex, Cursor Agent | `prompts/04-cli-coding/` |
 | **Both / Meta** | Catalog, phases, variants, overlays, eval | All | `prompts/00-meta/`, `05-agents/`, `06-phases/`, `07-variants/`, `08-eval/` |
 
-## Directory Structure Map
-```
-prompt-library/
-  README.md
-  INDEX.md
-  CHANGELOG.md
-  LICENSE
-  .gitignore
-  AGENTS.md
-  docs/
-  prompts/
-    00-meta/
-    01-originals/
-    02-improved/
-    03-chatbot-planning/
-    04-cli-coding/
-    05-agents/overlays/
-    06-phases/
-    07-variants/
-    08-eval/
-```
-
 ## Quick Start
-1. Browse `INDEX.md` for stable IDs `P-20260903-001` … `027`.
-2. Pick a base prompt by surface.
-3. Optionally compose with an overlay from `prompts/05-agents/overlays/`.
-4. Run phase prompts for multi-step work (Discover → Design Freeze → Implement).
+1. Open [INDEX.md](INDEX.md) for IDs `P-20260903-001` … `028`.
+2. Pick one base prompt by surface.
+3. Optionally add one overlay from `prompts/05-agents/overlays/`.
+4. Multi-step: Phase 0 Discover → Phase 1 Design freeze → Phase 2 Implement.
+5. Catalog bot: `P-20260903-028` (`prompts/00-meta/library-steward-bot.md`).
+
+## Not in this repo
+Disk Steward / Morpheus (`PATHWAY.md`, `USER_ROOTS`) is a separate tree. Do not look for it under `prompt-library/`.
 
 ## Catalog Snapshot
-27 prompts indexed. See INDEX.md for the full table.
+28 prompts indexed. See INDEX.md.
