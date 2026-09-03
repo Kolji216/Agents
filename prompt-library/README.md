@@ -2,6 +2,8 @@
 
 Repo: [Kolji216/Agents-such](https://github.com/Kolji216/Agents-such)
 
+Catalog bot display name: **Shinobu** (Insect Hashira). Prompt file remains `prompts/00-meta/library-steward-bot.md` (`P-20260903-028`).
+
 ## Purpose
 Dual-surface prompt library: **Chatbot** (plan, critique, eval) and **CLI** (implement, debug, verify).
 
@@ -17,10 +19,10 @@ Dual-surface prompt library: **Chatbot** (plan, critique, eval) and **CLI** (imp
 2. Pick one base prompt by surface.
 3. Optionally add one overlay from `prompts/05-agents/overlays/`.
 4. Multi-step: Phase 0 Discover → Phase 1 Design freeze → Phase 2 Implement.
-5. Catalog bot: `P-20260903-028` (`prompts/00-meta/library-steward-bot.md`).
+5. Catalog bot **Shinobu**: `P-20260903-028`.
 
 ## Sibling tree
-**Kanae** (disk agent) lives in [`../disk-steward/`](../disk-steward/README.md). Pathway: [`../disk-steward/docs/PATHWAY.md`](../disk-steward/docs/PATHWAY.md). Do not merge.
+**Kanae** (disk agent) lives in [`../disk-steward/`](../disk-steward/README.md). Pathway: [`../disk-steward/docs/PATHWAY.md`](../disk-steward/docs/PATHWAY.md). Do not merge. Shinobu does not move files.
 
 ## Catalog Snapshot
 28 prompts indexed. See INDEX.md.

@@ -7,7 +7,7 @@ Stable IDs assigned 2026-09-03. Paths and surfaces are authoritative; update fro
 | `P-20260903-001` | Archivist Spec | `prompts/00-meta/archivist-spec.md` | meta |
 | `P-20260903-002` | Epistemic Prompt Architect | `prompts/00-meta/epistemic-prompt-architect.md` | meta |
 | `P-20260903-003` | First-Principles Prompt Generator | `prompts/00-meta/first-principles-generator.md` | meta |
-| `P-20260903-028` | Library Steward Bot | `prompts/00-meta/library-steward-bot.md` | meta |
+| `P-20260903-028` | Shinobu (catalog bot) | `prompts/00-meta/library-steward-bot.md` | meta |
 | `P-20260903-004` | Original Review Project Draft | `prompts/01-originals/low-scoring-archivist/original-review-project-draft.md` | chatbot |
 | `P-20260903-005` | Original Review Project Draft Dup-1 | `prompts/01-originals/low-scoring-archivist/original-review-project-draft-dup-1.md` | chatbot |
 | `P-20260903-006` | Design-Only Refactored Prompt | `prompts/02-improved/design-only-refactored-prompt.md` | chatbot |
